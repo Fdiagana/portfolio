@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.brand-container{
+display: flex; 
+justify-content: space-between; 
+font-size: 20px;
+}
+
+.intro{
+    text-align: center;
+}
+.presentation{
+    text-align: center;
+}
+a{
+    margin: 6px;
+    text-decoration: none;
+}
+
+
+main{
+    text-align: center;
+    background-color:#7510f7;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 60px;
+    
+}
+.main-box-1{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    
+}
+.main-box-1-resa{
+    background-color: #3d76e4 ;
+    border-radius: 30px 30px 30px 30px;
+    width: 500px;
+    height: 250px;
+   
+    
+}
+.main-box-1-resa:hover{
+    background:-webkit-gradient(linear, right top, right bottom, from(#3d76e4), to(#3d75e45d));
+}
+.main-box-1-food{
+    background-color: #3d76e4;
+    border-radius: 30px 30px 30px 30px; 
+    width: 500px;
+    height: 250px; 
+}
+.main-box-1-food:hover{
+    background:-webkit-gradient(linear, right top, right bottom, from(#3d76e4), to(#3d75e45d));
+}
+.main-box-2{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.main-box-2-GMN{
+    background-color: #3d76e4;
+    border-radius: 30px 30px 30px 30px;
+    width: 500px;
+    height: 250px; 
+}
+.main-box-2-GMN:hover{
+    background:-webkit-gradient(linear, right top, right bottom, from(#3d76e4), to(#3d75e45d));
+}
+.main-box-2-pig{
+    background-color: #3d76e4;
+    border-radius: 30px 30px 30px 30px;
+    width: 500px;
+    height: 250px; 
+}
+.main-box-2-pig:hover{
+    background:-webkit-gradient(linear, right top, right bottom, from(#3d76e4), to(#3d75e45d));
+
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #141c3a;
+    flex-direction: row;
+    padding-top: 60px;
+    font-size: 25px;
+}
+
