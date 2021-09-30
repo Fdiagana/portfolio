@@ -49,6 +49,7 @@ main{
     border-radius: 30px 30px 30px 30px;
     width: 500px;
     height: 250px;
+    box-shadow : 0 4px 1rem black ;
    
     
 }
@@ -60,6 +61,7 @@ main{
     border-radius: 30px 30px 30px 30px; 
     width: 500px;
     height: 250px; 
+    box-shadow : 0 4px 1rem black;
 }
 .main-box-1-food:hover{
     background:-webkit-gradient(linear, right top, right bottom, from(#3d76e4), to(#3d75e45d));
@@ -74,6 +76,7 @@ main{
     border-radius: 30px 30px 30px 30px;
     width: 500px;
     height: 250px; 
+    box-shadow : 0 4px 1rem black;
 }
 .main-box-2-GMN:hover{
     background:-webkit-gradient(linear, right top, right bottom, from(#3d76e4), to(#3d75e45d));
@@ -83,10 +86,30 @@ main{
     border-radius: 30px 30px 30px 30px;
     width: 500px;
     height: 250px; 
+    box-shadow : 0 4px 1rem black;
 }
 .main-box-2-pig:hover{
     background:-webkit-gradient(linear, right top, right bottom, from(#3d76e4), to(#3d75e45d));
 
+}
+.main-b{
+    display: flex;
+    margin-left: 70px; 
+    margin-right: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.main-b-box{
+    border: 1px solid blue ; 
+    padding: 45px;
+    border-radius: 30px;
+    margin: 5px;
+    width: 300px;
+    height: 600px;
+
+    
+    
 }
 
 
@@ -98,4 +121,5 @@ footer{
     padding-top: 60px;
     font-size: 20px;
 }
+
 
