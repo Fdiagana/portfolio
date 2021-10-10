@@ -44,8 +44,9 @@ width: 100%;
 .brand-box-2{
     text-align: center;
 }
-.project{
-    color: white;
+.project-text{
+    color: black;
+    font-size: 20px;
 }
 a{
     margin: 6px;
@@ -58,10 +59,8 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
-    /*background-color:#7510f7;*/
     border-radius: 20px 20px 0px 0px;
     padding-bottom: 60px;
-    /*padding: 50px;*/
     width: 100%;  
     
 }
@@ -74,7 +73,6 @@ main{
 }
 
 .main-box-1-resa{
-    
     background-color: #3d76e4 ;
     border-radius: 30px 30px 30px 30px;
     height: 250px;
@@ -132,32 +130,35 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* margin-left: 70px;  */
-    /* margin-right: 60px; */
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     
+}
+.main-b-skills{
+    width: 100%;
+}
+.main-b-title{
+    text-align: center;
+    font-size: 40px;
+    background-color: #29345c ;
+    padding: 40px ; 
+    margin-bottom: 0px;
+    color: red;
+}
+.main-b-content{
+    font-size:20px ;
 }
 .main-b-box{
     border: 1px solid blue ; 
     padding: 45px;
     border-radius: 30px;
     margin: 5px;
-    width: 99%;
-    height: 600px;  
+    width: 96%;
+    height: 500px;  
     
 }
 
 
-/* footer{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #141c3a;
-    flex-direction: row;
-    padding-top: 60px;
-    font-size: 20px;
-}*/
 footer{
     display: flex; 
     flex-direction: column;
@@ -181,7 +182,7 @@ footer{
         background-color: #29345c ;
         padding-bottom: 40px ;
         flex-wrap: wrap;
-        }
+     }
     
     .nav-container-right{
         display: flex;
@@ -205,6 +206,9 @@ footer{
         margin-left: 140px;
         font-size: 25px;
     }
+    .project-text{
+        color: white;
+    }
     main{
         text-align: center;
         background-color:#7510f7;
@@ -213,10 +217,7 @@ footer{
         border-radius: 20px 20px 0px 0px;
         padding-bottom: 60px;
         padding: 50px;
-        width: 90%;
-        
-      
-        
+        width: 90%;   
     }
     .main-box-1{
         display: flex;
@@ -232,8 +233,6 @@ footer{
         width: 500px;
         height: 250px;
         box-shadow : 0 4px 1rem black ;
-         
-        /* width: 100%;    */
     }
   
     .main-box-1-food{
@@ -247,7 +246,6 @@ footer{
     .main-box-2{
         display: flex;
         flex-direction: row;
-        /* margin-top: 60px; */
         justify-content: space-between;
     }
     .main-box-2-GMN{
@@ -255,8 +253,7 @@ footer{
         border-radius: 30px 30px 30px 30px;
         width: 500px;
         height: 250px; 
-        box-shadow : 0 4px 1rem black;
-        
+        box-shadow : 0 4px 1rem black;   
     }
     .main-box-2-pig{
         background-color: #3d76e4;
@@ -272,12 +269,20 @@ footer{
         flex-direction: row;
         justify-content: space-around;
         margin-left: 70px;  
-        /* margin-right: 60px; */
         text-align: center;
         margin-bottom: 20px;
         margin-top: 20px;
         width: 90%;
         
+    }
+    .main-b-skills{
+        width: 90%;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .main-b-content{
+        margin-left: 70px;
+        width: 90%;
     }
     .main-b-box{
         border: 1px solid blue ; 
@@ -296,9 +301,6 @@ footer{
         padding-top: 60px;
         font-size: 20px;
     }
-   
-   
-
 }
 
 
