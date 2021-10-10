@@ -3,9 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/all.min.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
@@ -13,27 +12,61 @@
         <title>portfolio</title>
     </head>
     <body>
-<!--version mobile-->
+<!--nav version desktop-->
 <header>
     <div class="nav-container">
         <div class="brand-container-left">
-            <a class="link" href="#">
+            <a class="link" href="#accueil">
                 Accueil
             </a>
         </div>
         <div class="nav-container-right">
-            <a class="link" href="#">
-                Partenariat
+            <a class="link" href="#realisation">
+                Réalisations
             </a>
-            <a class="link" href="#">
-                Parlons-en
+            <a class="link" href="#competences">
+                Compétences
             </a>
         </div>
     </div>
+
+    <!--nav pour la version mobile-->
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="#home" class="active">
+            <i class="fab fa-pied-piper-square"></i>
+          </a>
+          <div id="myLinks">
+            <a href="#accueil">Accueil</a>
+            <a href="#realisation">Réalisations</a>
+            <a href="#competences">Compétences</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+        <!-- End smartphone / tablet look -->
+        
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>  
+        
+       
 </header>
 
 <!--introduce myself-->
-    <div class="intro">
+    <div class="intro" id="accueil">
         <p class="intro-element1">
             Business analyste et developpeur web front-end
         </p>
@@ -61,12 +94,13 @@
 
 <!--project cards-->
 
-<main>
+<main id="realisation">
     <h2 class="project"> Mes derniers projets</h2>
     <p class="project-text">
         Découvrez les projets que j'ai pu réaliser dans le cadre de mon parcours de developpeur <br>
         et surtout n'hésitez pas à cliquer pour les découvrir
     </p>
+    
     <div class="main-box-1">
         <div class="main-box-1-resa">
             <div>
@@ -74,8 +108,9 @@
                 <a href="https://fdiagana.github.io/projet_reservia/" target="_blank">
                     <img src="images/Reservia.min.png">
                 </a>
-            </div>
+            </div>    
         </div>
+    
         <div class="main-box-1-food">
             <div>
                 <h3>ohmyfood : Application de click and collect</h3> 
@@ -106,8 +141,8 @@
 </main>
 
 <!--skills cards-->
-<div class="main-b-skills"> 
-    <p class="main-b-title"> skills</p>
+<div class="main-b-skills" id="competences"> 
+    <p class="main-b-title"> Mes Compétences</p>
     <p class="main-b-content">ici l'ensemble des compétences que j'ai developpé 
         au travers des mes différentes expériences. Elles concerne aussi bien le 
         developpement web, le Business analysis que le management</p>
@@ -235,7 +270,8 @@
                 
             </footer>
 
-   
+                 
     </body>
+
 
 </html>
